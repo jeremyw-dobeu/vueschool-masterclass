@@ -1,0 +1,4 @@
+- name: First example
+  url: http://localhost:8080
+- name: Second example
+  url: http://localhost:8080/two
