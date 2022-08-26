@@ -1,0 +1,17 @@
+{"level":"debug","time":"2022-08-25T14:37:46.890-0400","caller":"cobra@v0.0.6/command.go:844","msg":"HyperExecute cli version: 0.0.229"}
+{"level":"debug","time":"2022-08-25T14:37:47.325-0400","caller":"cmd/bin.go:160","msg":"Upstream version: {Min:0.0.229 Max:0.0.229} "}
+{"level":"debug","time":"2022-08-25T14:37:47.325-0400","caller":"cmd/bin.go:160","msg":"Parsing config"}
+{"level":"debug","time":"2022-08-25T14:37:47.325-0400","caller":"yamlconfigmanager/setup.go:59","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2022-08-25T14:37:47.326-0400","caller":"core/lifecycle.go:97","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2022-08-25T14:37:47.687-0400","caller":"core/lifecycle.go:97","msg":"Tunnel: false"}
+{"level":"info","time":"2022-08-25T14:37:47.687-0400","caller":"core/lifecycle.go:104","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2022-08-25T14:37:47.688-0400","caller":"core/lifecycle.go:104","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2022-08-25T14:37:47.689-0400","caller":"core/lifecycle.go:104","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2022-08-25T14:37:47.689-0400","caller":"core/lifecycle.go:104","msg":"Concurrency:    \u001b[36m4\u001b[0m"}
+{"level":"info","time":"2022-08-25T14:37:47.689-0400","caller":"core/lifecycle.go:104","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2022-08-25T14:37:47.689-0400","caller":"core/lifecycle.go:104","msg":"Cache Directories:"}
+{"level":"info","time":"2022-08-25T14:37:47.689-0400","caller":"core/lifecycle.go:104","msg":"    \u001b[36m$CACHE_DIR\u001b[0m"}
+{"level":"info","time":"2022-08-25T14:37:47.690-0400","caller":"core/lifecycle.go:104","msg":""}
+{"level":"debug","time":"2022-08-25T14:37:47.690-0400","caller":"core/lifecycle.go:107","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2022-08-25T14:37:47.690-0400","caller":"core/lifecycle.go:107","msg":"Warning: data.json file doesn't exist"}
+{"level":"error","time":"2022-08-25T14:37:49.089-0400","caller":"cmd/bin.go:160","msg":"Unable to get job upload link : hyperexecute plan is not subscribed"}
